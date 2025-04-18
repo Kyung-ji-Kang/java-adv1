@@ -3,11 +3,11 @@ package thread.sync;
 import static util.MyLogger.log;
 import static util.ThreadUtils.sleep;
 
-public class BankAccountV1 implements BankAccount{
+public class BankAccountV2 implements BankAccount{
 
     volatile private int balance; //잔고
 
-    public BankAccountV1(int initialBalance) {
+    public BankAccountV2(int initialBalance) {
         this.balance = initialBalance;
     }
 
